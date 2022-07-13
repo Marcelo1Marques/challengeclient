@@ -1,7 +1,11 @@
+/* BACKGROUND COLOR */
+
 .bg-beige {
     background-color: #ffebcd;
   }
   
+/* TEXT COLOR */
+
   .text-black {
     color: #000000;
   }
@@ -21,3 +25,62 @@
 .text-light-red {
     color: #d03333;
   }
+
+  /* DISPLAY */
+
+.grid {
+  display: grid
+}
+
+.grid-cols-2 {
+  grid-template-columns: 25% 75%;
+}
+
+  .flex { 
+  display: flex;
+  }
+
+  .flex-row {
+    flex-direction: row;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  .justify-center {
+    justify-content: center;
+  }
+
+  .w-screen {
+  width: 100vw;
+  }
+
+  .item-center {
+    align-items: center;
+  }
+
+  .list-none { 
+  list-style-type: none;
+  }
+
+  .pr-8 {
+    padding-right: 2rem;
+  }
+
+  .no-underline {
+    text-decoration: none;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+   }
+
+   .text-center { 
+  text-align: center;
+   }
+
+   .my-40 {
+    margin-top: 40rem;
+    margin-bottom: 40rem;
+   }

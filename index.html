@@ -8,22 +8,26 @@
     <title>ChallengeClient</title>
 </head>
 <body class="bg-beige">
-    <header>
-    <img width="100px" src="https://cdn.pixabay.com/photo/2022/07/09/13/24/mountains-7310910_960_720.jpg" alt="Créa'Tif">
-    <h1>Créa'Tif</h1>
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <nav>
-        <ul>
-          <li class="text-red">
-            <a href="#">Accueil</a>
+    <header class="grid grid-cols-2 flex-row">
+      <div>
+        <img src="https://cdn.pixabay.com/photo/2022/07/09/13/24/mountains-7310910_960_720.jpg" alt="Créa'Tif" width="100px" height="auto">
+      </div>
+    <div class="flex item-center w-screen flex-col">
+      <h1>Créa'Tif</h1>
+      <link rel="stylesheet" href="./assets/css/styles.css">
+      <nav class="flex flex-row">
+        <ul class="flex flex-row justify-center list-none uppercase">
+          <li>
+            <a class="text-red pr-8 no-underline" href="#">Accueil</a>
           </li>
           <li class="text-red">
-            <a href="./assets/pages/contact/index.html">Contact</a>
+            <a class="text-red no-underline" href="./assets/pages/contact/index.html">Contact</a>
           </li>
         </ul>
-    </nav>
+      </nav>
+    </div>
     </header>
-    <h1 class="text-black">Bienvenue sur notre site</h1>
+    <h1 class="text-black text-center my-40">Bienvenue sur notre site</h1>
     <h2 class="text-brown">Pour plus d'informations, veuillez consulter notre page contact en cliquant <a class="text-light-red" href="./assets/pages/contact/index.html">ici</a>
     </h2>
     <p class="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis minus aspernatur rem natus eveniet. 
